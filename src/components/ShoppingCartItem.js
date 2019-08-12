@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { ProductContext } from "../contexts/ProductContext";
 
 const Item = props => {
-	const { products, addItem, delItem } = useContext(ProductContext);
+	const { delItem } = useContext(ProductContext);
 
 	return (
 		<div className="shopping-cart_item">
